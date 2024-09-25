@@ -1,6 +1,7 @@
 import {View, Text, StyleSheet} from 'react-native';
 import React from 'react';
 import theme, {scale} from '../../theme';
+import {hexToRgba} from '../../utils/helper.util';
 
 interface CustomParagraphProps {
   header: string;
@@ -36,5 +37,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: theme.fontSizes.medium,
     fontWeight: 'medium',
+    color: hexToRgba(theme.colors.black, 0.7),
   },
 });

@@ -13,15 +13,21 @@ export default theme = {
     white: '#FFFFFF',
     black: '#000000',
   },
+  fontFamily: {
+    genosBold: 'Genos-Bold',
+    genosSemiBold: 'Genos-SemiBold',
+    genosMedium: 'Genos-Medium',
+    genosRegular: 'Genos-Regular',
+  },
   fontSizes: {
-    xxbig: normalized.fontSize(5.92), // Equivalent to 34
-    xbig: normalized.fontSize(4.53), // Equivalent to 26
-    big: normalized.fontSize(3.77), // Equivalent to 22
-    xxmedium: normalized.fontSize(3.23), // Equivalent to 19
-    xmedium: normalized.fontSize(2.84), // Equivalent to 17
-    medium: normalized.fontSize(2.46), // Equivalent to 15
-    small: normalized.fontSize(2.07), // Equivalent to 13
-    verySmall: normalized.fontSize(1.69), // Equivalent to 11
-    tinySmall: normalized.fontSize(1.3), // Equivalent to 9
+    xxbig: normalized.fontSize(5.92),
+    xbig: normalized.fontSize(4.53),
+    big: normalized.fontSize(3.77),
+    xxmedium: normalized.fontSize(3.23),
+    xmedium: normalized.fontSize(2.84),
+    medium: normalized.fontSize(2.46),
+    small: normalized.fontSize(2.07),
+    verySmall: normalized.fontSize(1.69),
+    tinySmall: normalized.fontSize(1.3),
   },
 };

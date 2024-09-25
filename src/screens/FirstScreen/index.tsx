@@ -6,11 +6,19 @@ import {scale} from '../../theme';
 import {SvgXml} from 'react-native-svg';
 import CustomParagraph from '../../components/CustomParagraph';
 import CustomButton from '../../components/CustomButton';
+import {Icon} from 'react-native-elements';
 
 const FirstScreen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.imageContainer}>
+        <Icon
+          raised
+          name="heartbeat"
+          type="font-awesome"
+          color="#f50"
+          onPress={() => console.log('hello')}
+        />
         <SvgXml xml={stars} width={scale(315)} height={scale(273)} />
       </View>
       <View style={styles.textAndButtonContainer}>
