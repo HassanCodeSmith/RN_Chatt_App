@@ -22,37 +22,37 @@ export const hexToRgba = (hex, opacity) => {
   }
   return `rgba(${r}, ${g}, ${b}, ${opacity})`;
 };
-export function has8Characters(str) {
-  return str?.length >= 8;
-}
+// export function has8Characters(str) {
+//   return str?.length >= 8;
+// }
 
-export function hasUpperCaseLetterOrSymbol(str) {
-  const upperCaseOrSymbolRegex = /[A-Z\W]/;
-  return upperCaseOrSymbolRegex.test(str);
-}
+// export function hasUpperCaseLetterOrSymbol(str) {
+//   const upperCaseOrSymbolRegex = /[A-Z\W]/;
+//   return upperCaseOrSymbolRegex.test(str);
+// }
 
-export function hasNumber(str) {
-  const numberRegex = /\d/;
-  return numberRegex.test(str);
-}
-export function hasMatch(str1, str2) {
-  return str1 === str2;
-}
-export function returnIcon(isCheck, str) {
-  if (str?.length === 0) {
-    return shieldCheckNeutralIcon;
-  } else if (isCheck) {
-    return shieldCheckTickIcon;
-  } else {
-    return shieldCheckCrossIcon;
-  }
-}
-export function returnColor(isCheck, str) {
-  if (str?.length === 0) {
-    return theme.colors.midnightBlue;
-  } else if (isCheck) {
-    return theme.colors.vividGreen;
-  } else {
-    return theme.colors.lightRed;
-  }
-}
+// export function hasNumber(str) {
+//   const numberRegex = /\d/;
+//   return numberRegex.test(str);
+// }
+// export function hasMatch(str1, str2) {
+//   return str1 === str2;
+// }
+// export function returnIcon(isCheck, str) {
+//   if (str?.length === 0) {
+//     return shieldCheckNeutralIcon;
+//   } else if (isCheck) {
+//     return shieldCheckTickIcon;
+//   } else {
+//     return shieldCheckCrossIcon;
+//   }
+// }
+// export function returnColor(isCheck, str) {
+//   if (str?.length === 0) {
+//     return theme.colors.midnightBlue;
+//   } else if (isCheck) {
+//     return theme.colors.vividGreen;
+//   } else {
+//     return theme.colors.lightRed;
+//   }
+// }
